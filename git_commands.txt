@@ -7,3 +7,7 @@ git reset HEAD filname
 git checkout -- filename => Reverse back to the last commit changes
 git mv filename newfilename
 git rm filename
+git log --oneline --graph --decorate
+git log -- filename
+git log --follow filename
+git config --global alias.hist "--oneline --graph --decorate"
