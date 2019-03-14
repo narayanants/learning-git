@@ -4,5 +4,6 @@ git pull origin master
 git commit -am "commited"
 git ls-newfiles
 git reset HEAD filname
-git checkout -- filename
+git checkout -- filename => Reverse back to the last commit changes
 git mv filename newfilename
+git rm filename
