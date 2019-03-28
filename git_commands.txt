@@ -11,3 +11,32 @@ git log --oneline --graph --decorate
 git log -- filename
 git log --follow filename
 git config --global alias.hist "--oneline --graph --decorate"
+git diff HEAD
+git diff --staged HEAD
+git log --online
+git difftool master origin/master
+
+Braching and Merging:
+=====================
+
+git branch -a
+git branch mynewbranchname
+git checkout mynewbranchname
+git branch -m old_name new_name
+git branch -d branch_name
+
+git checkout -b new_branch
+
+git merge source_branch --no-ff
+
+
+git rebase master
+git rebase --abort
+
+git stash
+git stash list
+git stash drop
+
+git stash apply
+git stash pop
+
