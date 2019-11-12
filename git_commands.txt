@@ -16,19 +16,17 @@ git diff --staged HEAD
 git log --online
 git difftool master origin/master
 
-Braching and Merging:
+Branching and Merging:
 =====================
 
-git branch -a
-git branch mynewbranchname
-git checkout mynewbranchname
-git branch -m old_name new_name
-git branch -d branch_name
-
-git checkout -b new_branch
+git branch -a - Lists all branches
+git branch mynewbranchname - Creates a new branch
+git checkout -b new_branch - Create and switch to the new branch
+git checkout mynewbranchname - Switch to the new branch 
+git branch -m old_name new_name 
+git branch -d branch_name - Delete local branch
 
 git merge source_branch --no-ff
-
 
 git rebase master
 git rebase --abort
