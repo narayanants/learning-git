@@ -26,6 +26,11 @@ git checkout mynewbranchname - Switch to the new branch
 git branch -m old_name new_name 
 git branch -d branch_name - Delete local branch
 
+Delete a remote branch:
+=======================
+
+git push -d <remote_name> <branch_name>
+
 git merge source_branch --no-ff
 
 git rebase master
